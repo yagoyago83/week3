@@ -1,0 +1,22 @@
+body {
+    background-image: url("resources/nice.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid #2dd817;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f0120b;
+}
